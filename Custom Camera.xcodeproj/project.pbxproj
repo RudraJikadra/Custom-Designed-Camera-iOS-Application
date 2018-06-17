@@ -12,6 +12,7 @@
 		730DB2FA1FDAB0FA00FEA694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730DB2F81FDAB0FA00FEA694 /* Main.storyboard */; };
 		730DB2FC1FDAB0FA00FEA694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730DB2FB1FDAB0FA00FEA694 /* Assets.xcassets */; };
 		730DB2FF1FDAB0FA00FEA694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730DB2FD1FDAB0FA00FEA694 /* LaunchScreen.storyboard */; };
+		730DB3071FDAB8E500FEA694 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DB3061FDAB8E500FEA694 /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		730DB2FB1FDAB0FA00FEA694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		730DB2FE1FDAB0FA00FEA694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		730DB3001FDAB0FA00FEA694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730DB3061FDAB8E500FEA694 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				730DB2F41FDAB0FA00FEA694 /* AppDelegate.swift */,
 				730DB2F61FDAB0FA00FEA694 /* ViewController.swift */,
 				730DB2F81FDAB0FA00FEA694 /* Main.storyboard */,
+				730DB3061FDAB8E500FEA694 /* PreviewViewController.swift */,
 				730DB2FB1FDAB0FA00FEA694 /* Assets.xcassets */,
 				730DB2FD1FDAB0FA00FEA694 /* LaunchScreen.storyboard */,
 				730DB3001FDAB0FA00FEA694 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				730DB2F71FDAB0FA00FEA694 /* ViewController.swift in Sources */,
 				730DB2F51FDAB0FA00FEA694 /* AppDelegate.swift in Sources */,
+				730DB3071FDAB8E500FEA694 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +282,7 @@
 				DEVELOPMENT_TEAM = 7L65JSHTUM;
 				INFOPLIST_FILE = "Custom Camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RedRudy.Custom-Camera";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RedRudy.The-Watch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,7 +297,7 @@
 				DEVELOPMENT_TEAM = 7L65JSHTUM;
 				INFOPLIST_FILE = "Custom Camera/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.RedRudy.Custom-Camera";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RedRudy.The-Watch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
